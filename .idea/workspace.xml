@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3cbeb54b-d8a7-4fc3-b53d-1f6be1b4b858" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/KrestikiNoliki2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/KrestnikiNoliki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MyArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/Pole_chudes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BankTransaction/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BankTransaction/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BankTransaction/BankCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BankTransaction/BankTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collection/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConditionOperation/Casting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConditionOperation/If.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConditionOperation/LogisticOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConditionOperation/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConditionOperation/While.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Loops/For.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Methods/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Methods/Recursions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Cow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/ElectronicDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Personal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Tomogochi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/AbstractClass/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/ClassMyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/CorseForJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Encs/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Encs/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Encs/BookStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Encs/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Encs/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/BookType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/DeepColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/EbookFormat/EbookFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/EbookFormat/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Employee/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Game/GamePlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Game/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Size/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Size/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/Size/TShirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Enum/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/Inventory/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/Inventory/ConstractionEquipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/Inventory/HistoryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/Inventory/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/Inventory/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/Inventory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/Inventory/OfficeEquipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/Inventory/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/example/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/example/Expanse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/example/ExpenseTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Generic/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Humans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/SuperCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/SuperTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Inheritance/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/BankTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/DeviceStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/EWallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/Journal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/MainPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/Offline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/Online.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/PaymentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Interface/SportingStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/NestedClasses/MusicShopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/NestedClasses/NestedClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/OrderProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/Connectable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/Controllable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/DeviceStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/DeviceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/SecurityCamera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Project/Thermostat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/References/Example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/References/Example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/References/Example/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Static/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Static/FlyControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Static/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Static/StaticVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Static/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Static/StudentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Static/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OOP/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/BankCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/BankTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/CourseForJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Generic/BoxingInventary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Generic/HistoryRent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Generic/Inventer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Generic/ItemBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Generic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Generic/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/OrderProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practic/Student2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Temp/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/variables/Arithmetic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/variables/ArithmeticOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/variables/ConsoleInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/variables/DataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/variables/Masiv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/variables/example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/variables/СценарийИРоли.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2U3jIa5aMLSaoKAHHjTGQfp1BPi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="nulls" />
+      <recent name="variables" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OOP.Project.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Enum.Employee.Main" />
+      <module name="Education" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.Enum.Employee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOP.AbstractClass.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.AbstractClass.Main" />
+      <module name="Education" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.AbstractClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOP.Generic.Inventory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Generic.Inventory.Main" />
+      <module name="Education" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.Generic.Inventory.Item" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOP.Project.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Project.Main" />
+      <module name="Education" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOP.References.Example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.References.Example.Main" />
+      <module name="Education" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.References.Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OOP.Project.Main" />
+        <item itemvalue="Application.OOP.AbstractClass.Main" />
+        <item itemvalue="Application.OOP.Generic.Inventory.Main" />
+        <item itemvalue="Application.OOP.References.Example.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cbeb54b-d8a7-4fc3-b53d-1f6be1b4b858" name="Changes" comment="" />
+      <created>1692175084109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692175084109</updated>
+      <workItem from="1692175085875" duration="59079000" />
+      <workItem from="1692809835382" duration="164719000" />
+      <workItem from="1694802781110" duration="888748000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ConditionOperation/If.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ConditionOperation/If.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/Pole_chudes.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/variables/СценарийИРоли.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Methods/Basic.java</url>
+          <line>317</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/OOP/CorseForJava.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/OOP/Static/StaticVar.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/OOP/Project/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="bankTransaction" />
+        <watch expression="bankCustomer.bankAccounts" />
+        <watch expression="dateTime.toLocalDate() " language="JAVA" />
+        <watch expression="t.getDateTime().toLocalDate()" language="JAVA" />
+        <watch expression="inventory" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Education$Arithmetic.ic" NAME="Arithmetic Coverage Results" MODIFIED="1695487430600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>variables.*</FILTER>
+    </SUITE>
+  </component>
+</project>
