@@ -12,6 +12,7 @@ public class Main {
        Thermostat thermostat2 = new Thermostat(27,23,7,35);
 
 
+       SecurityCamera camera = new SecurityCamera("HP",true,120);
 
        Light light = new Light(5,"blue");
        Light light2 = new Light(7,"red");
