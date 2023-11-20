@@ -14,6 +14,7 @@ public class Main {
 
        SecurityCamera camera = new SecurityCamera("HP",true,120);
 
+
        Light light = new Light(5,"blue");
        Light light2 = new Light(7,"red");
 
@@ -26,6 +27,8 @@ public class Main {
 
        lightController.addDevice(light);
        lightController.addDevice(light2);
+
+       cameraController.addDevice(camera);
 
 
 
