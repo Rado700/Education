@@ -38,6 +38,10 @@ public class Main {
  //      lightController.deviceControl(light);
 
 
+        cameraController.history();
+        thermostatController.history();
+        lightController.history();
+        //      System.out.println(thermostat.getStatus());
 
 
        //cameraController.history();
@@ -45,6 +49,6 @@ public class Main {
 //       lightController.history(DeviceType.LIGHT);
  //      System.out.println(thermostat.getStatus());
 
-         Home.allHistory();
+        Home.allHistory();
     }
 }
