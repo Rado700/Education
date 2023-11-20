@@ -44,10 +44,10 @@ public class Main {
         //      System.out.println(thermostat.getStatus());
 
 
-       //cameraController.history();
-//      thermostatController.history();
-//       lightController.history(DeviceType.LIGHT);
- //      System.out.println(thermostat.getStatus());
+       cameraController.history();
+      thermostatController.history();
+       lightController.history();
+       System.out.println(thermostat.getStatus());
 
         Home.allHistory();
     }
