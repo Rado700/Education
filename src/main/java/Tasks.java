@@ -47,6 +47,8 @@ public class Tasks {
 //            result = (int) Math.floor(glass);
 //        }
 //        System.out.println(result);
+
+        System.out.println("Test");
     }
 //
 }
