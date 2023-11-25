@@ -63,6 +63,8 @@ public class Tasks {
         System.out.println("Test2");
 
         System.out.println("new Student +2");
+
+        System.out.println("Course finish");
     }
 //
 }
