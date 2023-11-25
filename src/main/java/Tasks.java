@@ -49,6 +49,8 @@ public class Tasks {
 //        System.out.println(result);
 
         System.out.println("Test");
+
+        System.out.println("Test2");
     }
 //
 }
