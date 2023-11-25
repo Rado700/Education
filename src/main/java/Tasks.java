@@ -52,6 +52,8 @@ public class Tasks {
 
         System.out.println("newBranch");
 
+        System.out.println("Add new student");
+
     }
 //
 }
