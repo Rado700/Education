@@ -56,6 +56,8 @@ public class Tasks {
 
         System.out.println("new Commit");
 
+
+        System.out.println("Test2");
     }
 //
 }
