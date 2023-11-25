@@ -54,6 +54,8 @@ public class Tasks {
 
         System.out.println("Add new student");
 
+        System.out.println("new Commit");
+
     }
 //
 }
