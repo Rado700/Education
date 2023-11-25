@@ -48,6 +48,8 @@ public class Tasks {
 //        }
 //        System.out.println(result);
 
+        System.out.println("First line");
+
         System.out.println("Test");
 
         System.out.println("newBranch");
