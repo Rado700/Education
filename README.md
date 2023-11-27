@@ -2,6 +2,7 @@
 ### Hello:wave:
 ### Образовательный проект Галимов Радик :man_technologist:
 
+[!Проект)]()
 ````
 This project was put together for demonstrations of general work
 on basic skills. 
