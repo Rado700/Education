@@ -4,13 +4,13 @@
 
 ![Проект)](https://github.com/Rado700/Education/blob/master/src/main/java/photo/otrkytky-ru-100-bXlrYWxlaWRvc2NvcGUucnU.jpg)
 
-````
-This project was put together for demonstrations of general work
+```
+* This project was put together for demonstrations of general work
 on basic skills. 
 Этот проект был собран для демонстраций общих работ
-по базовым навыкам. 
+по базовым навыкам. *
 
-````
+```
 
 **Здесь было изложенно всеобщие и базовые функций язака Java:
 Такие как :**
