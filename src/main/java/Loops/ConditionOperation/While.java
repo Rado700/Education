@@ -1,4 +1,4 @@
-package ConditionOperation;
+package Loops.ConditionOperation;
 
 import java.math.BigInteger;
 import java.util.Arrays;

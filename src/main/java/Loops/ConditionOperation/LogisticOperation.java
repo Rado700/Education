@@ -1,4 +1,4 @@
-package ConditionOperation;
+package Loops.ConditionOperation;
 
 public class LogisticOperation {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ConditionOperation;
+package Loops.ConditionOperation;
 
 public class If {
     public static void main(String[] args) {

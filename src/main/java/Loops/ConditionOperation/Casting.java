@@ -1,4 +1,4 @@
-package ConditionOperation;
+package Loops.ConditionOperation;
 
 public class Casting {
       public static int main(String[] args) {

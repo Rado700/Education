@@ -1,4 +1,4 @@
-package ConditionOperation;
+package Loops.ConditionOperation;
 
 public class Switch {
     public static void main(String[] args) {
