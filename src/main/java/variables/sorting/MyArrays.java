@@ -1,7 +1,5 @@
-package Arrays;
+package variables.sorting;
 
-import java.util.Arrays;
-import java.util.Random;
 import java.util.Scanner;
 
 public class MyArrays {
