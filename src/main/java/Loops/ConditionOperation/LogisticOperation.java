@@ -33,5 +33,9 @@ public class LogisticOperation {
         int m = 0;
         m += 1;
         System.out.println(m);
+
+        byte x13 = 12;
+        String compareto = x13 >= 16 ? "Yes": "No";
+        System.out.println(compareto);
     }
 }

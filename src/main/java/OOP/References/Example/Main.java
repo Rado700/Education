@@ -18,10 +18,10 @@ public class Main {
         System.out.println(user);
         System.out.println(userProfile);
 
-//        int a = 2;
-//        int b = a;
-//        b = 5;
-//        System.out.println(a);
-//        System.out.println(b);
+        int a = 2;
+        int b = a;
+        b = 5;
+        System.out.println(a);
+        System.out.println(b);
     }
 }
