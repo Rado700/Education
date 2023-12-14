@@ -13,7 +13,7 @@ public class Casting {
 //        System.out.println(p);
 
 
-    // вывести сумму чисел от старт до енд кратных мультиплей через continue
+          // вывести сумму чисел от старт до енд кратных мультиплей через continue
 
 //        Scanner scanner = new Scanner(System.in);
 //        int start = scanner.nextInt();
@@ -42,7 +42,7 @@ public class Casting {
 //
 //        }
 
-    //      Scanner scanner = new Scanner(System.in);
+          //      Scanner scanner = new Scanner(System.in);
 //        boolean isExit = false;
 //        while (!isExit){
 //            String s = scanner.nextLine();
@@ -69,16 +69,17 @@ public class Casting {
 //        System.out.println(x);// 999
 
 
-    // Средняя от общий длины и обьема
-//        int [] numbers = {17, 6, 10, 20, 25};
-//        int sum = 0;
-//        for (int number : numbers) {
-//            sum += number;
-//        }
-//        double average = (double) sum / numbers.length;
-//        System.out.println("Среднее число average "+ average);
+          // Средняя от общий длины и обьема
+          int[] numbers = {17, 6, 10, 20, 25};
+          int sum = 0;
+          for (int number : numbers) {
+              sum += number;
+          }
+          double average = (double) sum / numbers.length;
+          System.out.println("Среднее число average " + average);
 
 
-          return 0;
+          //        return 0;
+          return sum;
       }
 }

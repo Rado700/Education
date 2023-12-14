@@ -129,7 +129,7 @@ public class Basic {
 //            if (Character.isDigit(c)) {
 //                return true;
 //            }
-//
+
 //        }
 //        return false;
 //    }

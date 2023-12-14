@@ -30,17 +30,20 @@ public class array {
 //
 //    // 1 вариант
 //
-//    class Solution1 {
-//        public int missingNumber (int [] nums){
-//            int sum = 0;
-//            for (int num = 1; num <= nums.length; num++) sum += num;
-//            for (int num : nums) sum-= num;
-//            return sum;
-//
-//
-//            }
-//
-//        }
+    class Solution1 {
+        public int missingNumber (){
+
+            int nums [] = {1,22,5,7,22,10};
+            int sum = 0;
+            for (int num = 1; num <= nums.length; num++) sum += num;
+            for (int num : nums) sum-= num;
+            System.out.println(sum);
+            return  sum;
+
+
+            }
+
+        }
 //
 //    }
 //

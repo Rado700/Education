@@ -10,5 +10,23 @@ public class Shape {
 //            System.out.println();
 //
 
-
+//        //Премоугольник
+//
+//
+//        int height = 10;
+//        int width = 20;
+//        int row = 1;
+//        while (row <= height){
+//            int coloumn = 1;
+//            while(coloumn<= width){
+//                if (row == 1 || row == height || coloumn == 1 || coloumn == width){
+//                    System.out.print("Б");
+//                }else {
+//                    System.out.print(" ");
+//                }
+//                coloumn ++;
+//            }
+//            System.out.println();
+//            row++;
+//        }
 }
