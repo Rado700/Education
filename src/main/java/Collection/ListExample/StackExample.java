@@ -24,7 +24,7 @@ public class StackExample {
 //        System.out.println(isValid("[({})]"));
 //        System.out.println(isValid("[({)]}"));
 //        System.out.println(isValid("[[[["));
-        System.out.println(numeration("4,3,4,2,4,1,1,1,6,1"));
+        System.out.println(numeration("4,3,4,2,1,1,1,1,4"));
 
 //        Queue<Integer> one = new LinkedList<>();
 //        one.offer(1);
@@ -142,27 +142,41 @@ public class StackExample {
     }
 
 
-    public static String numeration(String numbers){
-        Stack<String> stack = new Stack<>();
+    public static String numeration(String numbers) {
+        Stack<Integer> stack = new Stack<>();
         int count = 0;
-        for (int i = 0; i < numbers.length(); i++) {
-            String result = numbers.replaceAll(",","");
-            String d = result.substring(i,i+1 );
-            char w = numbers.charAt(i);
-            stack.push(d);
-            char s = numbers.charAt(i+2);
+        int countTwo = 1;
+        String [] result = numbers.split(",");
+        for (int i = 0; i < result.length; i++) {
+            int d = Integer.parseInt(result[i]);
 
-            if (d.length() > 9){
+            if (d > 9) {
                 return "больше 9";
             }
-            String sel = stack.push(d);
-            if (w == s){
-                stack.pop();
-                count++;
 
+            if (!stack.empty()){
+                if (stack.peek() == d)
+                    countTwo++;
+                else if (countTwo >= 3) {
+                    for (int j = 0; j < countTwo; j++) {
+                        stack.pop();
+                    }
+                    count += countTwo;
+                    countTwo = 1;
+                }else {
+                    countTwo = 1;
+                }
             }
+            stack.push(d);
 
         }
-        return "Все";
+        if (countTwo >= 3) {
+            for (int j = 0; j < countTwo; j++) {
+                stack.pop();
+            }
+            count += countTwo;
+        }
+        System.out.println(stack);
+        return "Всe " + count;
     }
 }
