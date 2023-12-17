@@ -6,9 +6,13 @@ public class StackExample {
     public static void main(String[] args) {
 
         Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stack2 = new Stack<>();
         stack.push(1);
         stack.push(2);
         stack.push(11);
+
+        int top = stack.pop();
+        stack2.push(top);
 
 
         stack.pop();
@@ -19,28 +23,28 @@ public class StackExample {
         System.out.println(stack.empty());
 
 
-        System.out.println(isVailds("(())()"));
+        System.out.println(isVailds("(())(()"));
 //        System.out.println(isValid("[](){}"));
 //        System.out.println(isValid("[({})]"));
 //        System.out.println(isValid("[({)]}"));
 //        System.out.println(isValid("[[[["));
         System.out.println(numeration("4,3,4,2,1,1,1,1,4"));
 
-//        Queue<Integer> one = new LinkedList<>();
-//        one.offer(1);
-//        one.offer(3);
-//        one.offer(5);
-//        one.offer(7);
-//        one.offer(9);
+        Queue<Integer> one = new LinkedList<>();
+        one.offer(1);
+        one.offer(3);
+        one.offer(5);
+        one.offer(7);
+        one.offer(9);
+
+        Queue<Integer> two = new LinkedList<>();
+        two.offer(2);
+        two.offer(4);
+        two.offer(6);
+        two.offer(8);
+        two.offer(0);
 //
-//        Queue<Integer> two = new LinkedList<>();
-//        two.offer(2);
-//        two.offer(4);
-//        two.offer(6);
-//        two.offer(8);
-//        two.offer(0);
-//
-//        System.out.println(botva(one, two));
+        System.out.println(botva(one, two));
     }
 
     public static String isVailds(String s) {
@@ -58,7 +62,6 @@ public class StackExample {
 
                         return "Не верно";
                     }
-
 
                 } else {
                     Character cs = s.charAt(i);
@@ -94,6 +97,7 @@ public class StackExample {
                 if (stack.empty()) {
                     return false;
                 }
+
                 Character stack_last = stack.pop();
                 if (c == ']' && stack_last == '[' || c == ')' && stack_last == '(' || c == '}' && stack_last == '{') {
 
@@ -102,7 +106,6 @@ public class StackExample {
                     return false;
                 }
             }
-
         }
         if (stack.empty()) {
             return true;
@@ -110,10 +113,8 @@ public class StackExample {
         return false;
     }
 
-
     public static String botva(Queue<Integer> one, Queue<Integer> two) {
         int count = 0;
-
 
         while (!one.isEmpty() && !two.isEmpty()) {
             count++;
@@ -137,8 +138,6 @@ public class StackExample {
             return "Win is two" + count;
         } else
             return "one " + count;
-
-
     }
 
 
