@@ -1,7 +1,31 @@
 package variables.sorting;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class array {
     public static void main(String[] args) {
+
+        System.out.println(generate(5));
+    }
+    public static List<List<Integer>> generate(int numRows) {
+        ArrayList<Integer> row = new ArrayList<>();
+        List<List<Integer>> rowList = new ArrayList<>();
+
+        for(int i = 0; i < numRows; i++){
+            row.add(0, 1);
+            for(int j = 1; j < i; j++)
+                System.out.println( row.set(j, row.get(j)+row.get(j+1)));
+            System.out.println( row.set(i, 1));
+            System.out.println( rowList.add(new ArrayList<>(row)));
+
+        }
+        System.out.println( rowList.add(new ArrayList<>(row)));
+
+        return rowList;
+    }
 
 
         //
@@ -30,20 +54,20 @@ public class array {
 //
 //    // 1 вариант
 //
-    class Solution1 {
-        public int missingNumber (){
-
-            int nums [] = {1,22,5,7,22,10};
-            int sum = 0;
-            for (int num = 1; num <= nums.length; num++) sum += num;
-            for (int num : nums) sum-= num;
-            System.out.println(sum);
-            return  sum;
-
-
-            }
-
-        }
+//    class Solution1 {
+//        public int missingNumber (){
+//
+//            int nums [] = {1,22,5,7,22,10};
+//            int sum = 0;
+//            for (int num = 1; num <= nums.length; num++) sum += num;
+//            for (int num : nums) sum-= num;
+//            System.out.println(sum);
+//            return  sum;
+//
+//
+//            }
+//
+//        }
 //
 //    }
 //
@@ -391,5 +415,5 @@ public class array {
 //            return result;
 //        }
 
-    }
+
 }
