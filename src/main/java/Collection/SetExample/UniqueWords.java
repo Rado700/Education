@@ -8,6 +8,8 @@ import java.util.Set;
 public class UniqueWords {
     public static void main(String[] args) {
 
+        //
+
         Scanner scanner = new Scanner(System.in);
         String word = scanner.nextLine();
 
@@ -20,6 +22,7 @@ public class UniqueWords {
                 words.add(splitWord[i]);
             }
         }
+        System.out.println(words);
         System.out.println(words.size());
 
     }
