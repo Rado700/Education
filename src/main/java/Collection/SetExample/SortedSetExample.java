@@ -35,18 +35,27 @@ public class SortedSetExample {
         Pupil pupil2 = new Pupil("Andrey",26);
         Pupil pupil3 = new Pupil("Timur", 23);
         Pupil pupil4 = new Pupil("Boris", 21);
+        Pupil pupil5 = new Pupil("Timur",21);
+        Pupil pupil6 = new Pupil("Timuro",24);
 
         SortedSet<Pupil>pupils = new TreeSet<>();
-
+  //      SortedSet<Pupil>draft = new TreeSet<>();
         pupils.add(pupil);
         pupils.add(pupil1);
         pupils.add(pupil2);
         pupils.add(pupil3);
         pupils.add(pupil4);
+        pupils.add(pupil5);
+        pupils.add(pupil6);
+
+
+
 
         for (Pupil pi:pupils) {
-            System.out.println(pi);
+                System.out.println(pi);
+
         }
+        System.out.println(pupils.size());
 
     }
 }
