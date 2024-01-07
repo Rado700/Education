@@ -14,6 +14,7 @@ public class newWords {
         int values = 0;
 
         String[] one = word.split(" ");
+
         for (int i = 0; i < one.length; i++) {
 
 

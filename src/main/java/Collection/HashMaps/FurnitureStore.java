@@ -53,11 +53,11 @@ public class FurnitureStore {
                 System.out.println(totals);
             }
         }
-        int one = priceList.get(furniture.get("Кровать")).get("price");
-        int two = priceList.get(furniture.get("Кровать")).get("quantity");
-        totals = one * two;
-        System.out.println("Кровать");
-        System.out.println(totals);
+//        int one = priceList.get(furniture.get("Кровать")).get("price");
+//        int two = priceList.get(furniture.get("Кровать")).get("quantity");
+//        totals = one * two;
+//        System.out.println("Кровать");
+//        System.out.println(totals);
 
 
     }

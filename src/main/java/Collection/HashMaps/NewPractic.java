@@ -6,7 +6,7 @@ import java.util.Map;
 public class NewPractic {
     public static void main(String[] args) {
 
-        System.out.println(Rim("IV"));
+        System.out.println(Rim("IVX"));
 
     }
     public static Integer Rim (String number){
