@@ -10,24 +10,29 @@ public class newWordsInversion {
         Scanner scanner = new Scanner(System.in);
         String words = scanner.nextLine().replace(",", " ").replace("?", " ");
 
-        Map<Integer, String> addWords = new HashMap<>();
-        String [] word = words.split(" ");
-
+        Map<String, Integer> addWords = new HashMap<>();
+        String[] word = words.split(" ");
 
         int totals = 0;
 
-        for (int i = 0; i < word.length; i++) {
-            if (!addWords.containsValue(word[i])) {
-                addWords.put(i, word[i]);
+        for (int i = 0; i < word.length - 1; i++) {
 
-            } else if (addWords.containsValue(word[i])) {
-                int current = Integer.parseInt(word[i]);
-                addWords.put(current + 1, word[i]);
+            if (!addWords.containsKey(word[i])) {
+                addWords.put(word[i], i + 1);
             }
 
+            for (int j = 1; j < word.length; j++) {
+                if (addWords.containsKey(word[i]))
+                    addWords.put(word[i], i + 1);
+            }
         }
         System.out.println(addWords);
     }
 
 }
+
+
+
+
+
 
