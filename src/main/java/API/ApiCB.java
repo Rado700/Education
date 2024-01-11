@@ -13,9 +13,17 @@ public class ApiCB {
     public static void main(String[] args) throws URISyntaxException, IOException {
 
         Scanner scanner = new Scanner(System.in);
+
         Scanner scanner1 = new Scanner(System.in);
-        String valute = scanner1.nextLine();
+
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.println("cумма обмена");
         int rub = scanner.nextInt();
+        System.out.println("первая валюта");
+        String valute = scanner1.nextLine();
+        System.out.println("вторая валюта");
+        String valute2 = scanner2.nextLine();
+
 
         HttpURLConnection connection = (HttpURLConnection) new URL("https://www.cbr-xml-daily.ru/daily_json.js").openConnection();
         connection.setRequestMethod("GET");
@@ -34,14 +42,25 @@ public class ApiCB {
             JSONObject jsonResponse = new JSONObject(responseStringBuilder.toString());
 
             JSONObject ss = jsonResponse.getJSONObject("Valute");
+            Double total = null;
+            Double total2 = null;
             if (ss.keySet().contains(valute)){
-                Double nom = ss.getJSONObject(valute).getDouble("Nominal");
-                Double sp = ss.getJSONObject(valute).getDouble("Value");
-                Double total = rub/nom*sp;
-                System.out.println(total);
+                Double nom1 = ss.getJSONObject(valute).getDouble("Nominal");
+                Double val1 = ss.getJSONObject(valute).getDouble("Value");
+
+                total = rub/nom1*val1;
+
+            }
+            if (ss.keySet().contains(valute2)){
+                Double nom2 = ss.getJSONObject(valute2).getDouble("Nominal");
+                Double val2 = ss.getJSONObject(valute2).getDouble("Value");
+
+                total2 = rub/nom2*val2;
             }
 
-            System.out.println(ss);
+            Double result = total/total2*100;
+            System.out.println(result);
+
         }
 
 

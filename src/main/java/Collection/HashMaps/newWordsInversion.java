@@ -1,8 +1,6 @@
 package Collection.HashMaps;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class newWordsInversion {
     public static void main(String[] args) {
@@ -10,26 +8,42 @@ public class newWordsInversion {
         Scanner scanner = new Scanner(System.in);
         String words = scanner.nextLine().replace(",", " ").replace("?", " ");
 
-        Map<String, Integer> addWords = new HashMap<>();
+        Map<Integer, List<String>> addWords = new HashMap<>();
         String[] word = words.split(" ");
 
-        int totals = 0;
 
-        for (int i = 0; i < word.length - 1; i++) {
+        List<String>name = new ArrayList<>();
+        String names;
+        for (int i = 0; i < word.length ; i++) {
+            names = word[i];
+            name = new ArrayList<>();
+            int totals = 0;
 
-            if (!addWords.containsKey(word[i])) {
-                addWords.put(word[i], i + 1);
+            for (int j = 0; j < word.length ; j++) {
+                if (names.equals(word[j])) {
+                    totals++;
+                }
             }
+            if (!addWords.containsKey(totals)) {
+                name.add(names);
+                addWords.put(totals,name);
+            }else{
 
-            for (int j = 1; j < word.length; j++) {
-                if (addWords.containsKey(word[i]))
-                    addWords.put(word[i], i + 1);
+
+            if(!addWords.get(totals).contains(names)) {
+                    addWords.get(totals).add(names);
+
+
+                }
             }
         }
         System.out.println(addWords);
+
     }
 
+
 }
+
 
 
 
