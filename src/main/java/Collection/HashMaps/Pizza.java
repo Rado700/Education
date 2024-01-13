@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Pizza {
     public static void main(String[] args) {
 
+        // В базе храняться данные кто. что. сколько. заказывал
 
         Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);

@@ -23,7 +23,7 @@ public class Students {
             String std1 =nameStudent[0];
             String std2 = nameStudent[1];
 
-            nextStudent.put(std2,std1);
+            nextStudent.put(std1,std2);
         }
 
         for (String name :nextStudent.keySet()) {

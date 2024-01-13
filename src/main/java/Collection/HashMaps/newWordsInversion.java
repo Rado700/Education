@@ -12,7 +12,7 @@ public class newWordsInversion {
         String[] word = words.split(" ");
 
 
-        List<String>name = new ArrayList<>();
+        List<String>name ;
         String names;
         for (int i = 0; i < word.length ; i++) {
             names = word[i];
@@ -27,15 +27,13 @@ public class newWordsInversion {
             if (!addWords.containsKey(totals)) {
                 name.add(names);
                 addWords.put(totals,name);
-            }else{
-
-
-            if(!addWords.get(totals).contains(names)) {
+            }else
+                if (!addWords.get(totals).contains(names)) {
                     addWords.get(totals).add(names);
 
 
                 }
-            }
+
         }
         System.out.println(addWords);
 
