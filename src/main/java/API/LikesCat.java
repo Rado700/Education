@@ -23,6 +23,7 @@ public class LikesCat {
         Map<String, Object> requestBodyMap = new HashMap<>();
         requestBodyMap.put("image_id", id);
         requestBodyMap.put("value", 1);
+
         HttpURLConnection connection = (HttpURLConnection) new URL("https://api.thecatapi.com/v1/votes?api_key=" + API_KEY).openConnection();
         connection.setRequestMethod("POST");
 
