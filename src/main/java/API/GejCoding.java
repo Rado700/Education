@@ -44,10 +44,10 @@ public class GejCoding {
                 System.out.println(one + " " + two);
                 System.out.println();
 
-                String url = "https://api.open-meteo.com/v1/forecast?latitude=" + one + "&longitude=" + two + "&hourly=temperature_2m&timezone=" + timeZone + "&forecast_days=1";
-
+                String url = "https://api.open-meteo.com/v1/forecast?latitude=" + one + "&longitude=" + two + "&hourly=temperature_2m&timezone=" + timeZone + "&forecast_days=3";
                 connection = (HttpURLConnection) new URL(url).openConnection();
                 connection.setRequestMethod("GET");
+
                 StringBuilder stringBuilder1 = new StringBuilder();
                 if (connection.getResponseCode() == 200) {
                     BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
