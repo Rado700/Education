@@ -1,43 +1,43 @@
 package StreamApi;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.toMap;
 
 public class Main {
     public static void main(String[] args) {
 
-        Person person1 = new Person("Artur",17);
-        Person person2 = new Person("Dima",21);
-        Person person3 = new Person("Stepan",15);
-        Person person4 = new Person("Anton",29);
-        Person person5 = new Person("Kirill",39);
-
-        List<Person> personList = new ArrayList<>();
-        personList.add(person1);
-        personList.add(person2);
-        personList.add(person3);
-        personList.add(person4);
-        personList.add(person5);
-
-        double SredVozrast = personList.stream().mapToDouble(Person::getAge).average().orElse(0);
-        List<Person>agePeople = personList.stream().filter(p->p.getAge()>25).toList();
-        List<String>namePeople = personList.stream().filter(person -> person.getAge()<30).map(person -> person.getName()).collect(Collectors.toList());
-        System.out.println(namePeople);
-        List<Person>sortPeople = personList.stream().sorted((p1, p2) -> Integer.compare(p2.getAge(), p1.getAge())).collect(Collectors.toList());
-     //   int count = personList.stream().count().;
-
-        System.out.println(sortPeople);
-
-        Map<String,Integer>people = personList.stream().collect(Collectors.toMap(p -> p.getName(),p->p.getAge()));
-        System.out.println(people);
-        List<Person>nameChange = personList.stream().peek(p -> p.setAge(p.getAge() + 3)).toList();
-        List<Person>nameChange2 = personList.stream().peek(person -> person1.setName("ssq")).toList();
-        System.out.println(nameChange2);
-        personList.stream().filter(person -> (person.getAge()>30)).forEach(person -> System.out.println(person.getName()));
+        List<String>products = Arrays.asList("Laptop:1200", "Smartphone:800","Headphones:150","Camera:900","Tablet:1000");
+        //Разделить на Map ключ значение
+        Map<String,Integer>newMap = products.stream().map(p->p.split(":")).collect(Collectors.toMap(strings -> strings[0],val->Integer.valueOf(val[1])));
+        System.out.println(newMap);
+        //Найти среднюю
+        OptionalDouble averagePrice = products.stream().mapToInt(p->Integer.parseInt(p.split(":")[1])).average();
+        System.out.println(averagePrice);
 
 
+
+//        Stream<String> phones = Stream.of("iPhone 8", "HTC U12", "Huawei Nexus 6P",
+//                "Samsung Galaxy S9", "LG G6", "Xiaomi MI6", "ASUS Zenfone 2",
+//                "Sony Xperia Z5", "Meizu Pro 6", "Lenovo S850");
+//
+//        HashSet<String> filteredPhones = phones.filter(s->s.length()<12).
+//                collect(Collectors.toCollection(HashSet::new));
+//
+//        filteredPhones.forEach(s->System.out.println(s));
+
+
+        Stream<String> phones = Stream.of("iPhone 8", "HTC U12", "Huawei Nexus 6P");
+
+        ArrayList<String> filteredPhones = phones.filter(s->s.length()<12)
+                .collect(
+                        ()->new ArrayList<String>(), // создаем ArrayList
+                        (list, item211)->list.add(item211), // добавляем в список элемент
+                        (list1, list2221)-> list1.addAll(list2221)); // добавляем в список другой список
+
+        filteredPhones.forEach(s->System.out.println(s));
     }
 }
+
