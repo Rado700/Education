@@ -1,10 +1,13 @@
 package StreamApi;
 
+import javax.xml.crypto.Data;
+import java.sql.Date;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toMap;
+
 
 public class Main {
 
@@ -54,9 +57,10 @@ public class Main {
                 new Employee("Vova2", "Reklama", 1500));
 //        employee.sorted(new EmployeeComparator()).forEach(p-> System.out.printf("%s - (%s) %d \n",p.getName(),p.getDepartment(),p.getSalary()));
 
-        //Найти среднюю зарплату всех сотрудников
+//        Найти среднюю зарплату всех сотрудников
 //        OptionalDouble averageSotrudnik = employee.mapToDouble(Employee::getSalary).average();
 //        System.out.println(averageSotrudnik);
+
         //Найти сотрудника с макс зарплатой
 //        OptionalInt maxZP = employee.mapToInt(Employee::getSalary).max();
 //        System.out.println(maxZP);
@@ -67,9 +71,11 @@ public class Main {
 //        }
 
 
-        //Отфильтровать чья зарплата больше средней по компаний
-        Map<String,Integer>employee1 = employee.collect(Collectors.toMap(Employee::getName, Employee::getSalary));
-        System.out.println(employee1);
+        //Отфильтровать сотрудников чья зарплата больше средней по компаний
+//                Map<String, IntSummaryStatistics> deportamentZP = employee.collect(Collectors.groupingBy(Employee::getName, Collectors.summarizingInt((Employee::getSalary))));
+//        for (Map.Entry<String, IntSummaryStatistics> item : deportamentZP.entrySet()) {
+//            System.out.println(item.getKey() + "-" + item.getValue().getAverage());
+//        }
 
         //Общая статистика
 //        Map<String, IntSummaryStatistics> sotrudnikZP = employee.collect(Collectors
@@ -99,15 +105,15 @@ public class Main {
 //        for (Map.Entry<String, IntSummaryStatistics> item : deportamentZP.entrySet()) {
 //            System.out.println(item.getKey()+ "-"+ item.getValue().getMax());
 //        }
+//
 
-
-        //Общая суммма зарплат для каждого отдела
+//        Общая суммма зарплат для каждого отдела
 //        Map<String, IntSummaryStatistics> deportamentZP = employee.collect(Collectors.groupingBy(Employee::getDepartment,Collectors.summarizingInt((Employee::getSalary))));
 //        for (Map.Entry<String, IntSummaryStatistics> item : deportamentZP.entrySet()) {
 //            System.out.println(item.getKey()+ "-"+ item.getValue().getSum());
 //        }
 //    }
-
+//
     }
 }
 
