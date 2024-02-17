@@ -170,27 +170,30 @@ public class Phone_book {
     }
     public void updateComment(int text_id,int user_id,String newPost){
         try {
-        String commen = "SELECT post_id,contento,author.name as author,user_id,commentator.id as commentator FROM commentarie " +
-                "INNER JOIN users commentator on commentarie.user_id=commentator.id " +
-                "INNER JOIN users author on commentarie.post_id=author.id " +
-                "INNER JOIN post on author.id=post.users_id " +
-                "GROUP BY post_id,contento,author.name,user_id,commentator.id "+
-                "HAVING user_id = "+user_id+" AND commentator.id ="+ user_id;
+        String commen = "SELECT commentarie.id, user_id,post_id,text,useer.id as usor,poost.id as poost FROM commentarie " +
+                "INNER JOIN users useer on commentarie.user_id = useer.id " +
+                "INNER JOIN post poost on commentarie.post_id = poost.id " +
+                "GROUP BY commentarie.id, user_id,post_id,text,usor,poost " +
+                "HAVING commentarie.id ="+text_id;
 
 
             var stmt = connection.createStatement();
             var updat = stmt.executeQuery(commen);
 
             while (updat.next()) {
-                int commentator = updat.getInt("commentator");
+                int user = updat.getInt("user_id");
 
-                if (user_id != commentator ){
-                    System.out.println("Не наш комментарий");
+                if (user != user_id) {
+                    System.out.println("Не наш коммент");
+                    return;
+
                 }
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+
+
 
         try {
         String updateComment = "UPDATE commentarie SET text ='"+newPost+
@@ -349,7 +352,7 @@ public class Phone_book {
 
  //       phone_book.getlikePost();
 //        phone_book.selectComment();
-        phone_book.updateComment(5,1,"Nice");
+//      phone_book.updateComment(6,3,"Nice12!!");
         //    phone_book.deletePost(8);
         //          phone_book.addLike(6,2);
 //        phone_book.addComment(1, 3, "its very good post");
